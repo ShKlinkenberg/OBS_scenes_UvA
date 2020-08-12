@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "zoom.us",
-    "current_scene": "zoom.us",
+    "current_program_scene": "Browser",
+    "current_scene": "Browser",
     "current_transition": "Fade",
     "groups": [
         {
@@ -1304,7 +1304,7 @@
                     "push-to-talk": false,
                     "push-to-talk-delay": 0,
                     "settings": {
-                        "image_path": "/Users/sklinke1/surfdrive/Onderwijs/OBS/circle.png",
+                        "image_path": "/Users/sklinke1/GitHub/OBS_scenes_UvA/images/circle.png",
                         "opacity": 100,
                         "stretch": true
                     },
@@ -1629,13 +1629,11 @@
                     }
                 ],
                 "libobs.hide_scene_item.Browser window": [],
-                "libobs.hide_scene_item.EOS circle": [],
                 "libobs.hide_scene_item.Syphon Client": [],
                 "libobs.hide_scene_item.UvA logo": [],
                 "libobs.hide_scene_item.UvA tag": [],
                 "libobs.hide_scene_item.audio": [],
                 "libobs.show_scene_item.Browser window": [],
-                "libobs.show_scene_item.EOS circle": [],
                 "libobs.show_scene_item.Syphon Client": [],
                 "libobs.show_scene_item.UvA logo": [],
                 "libobs.show_scene_item.UvA tag": [],
@@ -1713,35 +1711,6 @@
                         },
                         "scale_filter": "disable",
                         "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 195,
-                        "crop_right": 194,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 16,
-                        "locked": true,
-                        "name": "EOS circle",
-                        "pos": {
-                            "x": 962.0,
-                            "y": 46.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.47810858488082886,
-                            "y": 0.47777777910232544
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
                     },
                     {
                         "align": 5,
@@ -1964,61 +1933,6 @@
                     "enabled": true,
                     "flags": 0,
                     "hotkeys": {},
-                    "id": "mask_filter",
-                    "mixers": 0,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Circle",
-                    "prev_ver": 419430408,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "image_path": "/Users/sklinke1/GitHub/OBS_scenes_UvA/images/circle.png",
-                        "stretch": true
-                    },
-                    "sync": 0,
-                    "versioned_id": "mask_filter",
-                    "volume": 1.0
-                }
-            ],
-            "flags": 0,
-            "hotkeys": {},
-            "id": "av_capture_input",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "EOS circle",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "device": "CDC85FD0-E73A-4FC2-B3A8-EA237D6990E0",
-                "device_name": "CamTwist",
-                "preset": "AVCaptureSessionPreset960x540"
-            },
-            "sync": 0,
-            "versioned_id": "av_capture_input",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "filters": [
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
                     "id": "scroll_filter",
                     "mixers": 0,
                     "monitoring_type": 0,
@@ -2090,7 +2004,7 @@
                     "size": 288,
                     "style": "Regular"
                 },
-                "text": "00:04:41"
+                "text": "00:04:19"
             },
             "sync": 0,
             "versioned_id": "text_ft2_source_v2",
