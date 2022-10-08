@@ -1,0 +1,60 @@
+---
+format: html
+---
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<style>
+body {
+  background-color: black;
+}
+.hd {
+  background: rgb(111,111,111);
+background: radial-gradient(circle, rgba(111,111,111,1) 0%, rgba(0,0,0,1) 50%);
+  position: absolute;
+  top: 0px; 
+  left: 0px;
+  height: 1080px;
+  width:  1920px;
+}
+
+.logo {
+  width: 400px;
+  position: absolute;
+  top: 340px; 
+  left: 760px;
+}
+</style>
+
+::: {.hd}
+
+![](images/UvAtag.png){.center .logo}
+
+:::
+
+<script>
+  var tl = anime.timeline({
+});
+
+tl
+.add({
+  targets: '.logo',
+  translateY: [1000, 0],
+  loop: false,
+  delay: 500,
+  duration: 2000,
+  easing: 'easeInOutElastic'
+})
+.add({
+  targets: '.logo',
+  opacity: .0,
+  delay: 500,
+  duration: 1000,
+  easing: 'linear'
+})
+.add({
+  targets: '.hd',
+  opacity: .0,
+  duration: 2000
+})
+</script>
